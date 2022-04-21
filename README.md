@@ -1,12 +1,12 @@
 # Subito.it-API
-Unofficial Wrapper API for the website [@Subito.it](https://www.subito.it/)
+Unofficial Wrapper API for the website [Subito.it](https://www.subito.it/)
 
 ## Author
 - [@alebrandi](https://www.github.com/alebrandi)
 
 ## Description
 
-Unofficial API which scrapes the products on [@Subito.it](https://www.subito.it/) which is kind of the italian version of the website [@Craigslist.org](https://www.craigslist.org/about/sites?lang=en&cc=gb#US)
+Unofficial API which scrapes the products on [Subito.it](https://www.subito.it/) which is kind of the italian version of the website [Craigslist.org](https://www.craigslist.org/about/sites?lang=en&cc=gb#US)
 
 
 ## Quick Start Guide
@@ -32,16 +32,15 @@ The search() method takes 7 parameters:
 - results (int): maximum number of results you want back. Defaults to 100 results. Declaring less than 100 results will return 0 results
 - sort_by (string): you can sort the results by: -most recent (sort_by = "date")
                                                 -lowest price (sort_by = "lowest price")
-                                                -highest price (sort_by = "highest price")
-                    It defaults to lowest price.
-- ad_type (string): returns either "for sale" (ad_type = "for sale") or "wanted" (ad_type = "wanted") ads. Defualts to "for sale"
+                                                -highest price (sort_by = "highest price"). It defaults to lowest price.
+- ad_type (string): returns either "for sale" (ad_type = "for sale") or "wanted" (ad_type = "wanted") ads. Defaults to "for sale"
 - region (string) : returns ads located in a specific region of Italy. The region name has to be declared using the italian name.
                     Defaults to no particular region specified.
 - municipality (string) : returns ads located in a specific municipality of the region.
                     Defaults to no particular municipality specified.
-                    Must input the ISTAT CODE for the municipality. It can be found [@here](https://dait.interno.gov.it/territorio-e-autonomie-locali/sut/elenco_codici_comuni.php) by copying the "CODICE ISTAT" for associated with the desired municipality.
+                    Must input the ISTAT CODE for the municipality. It can be found [here](https://dait.interno.gov.it/territorio-e-autonomie-locali/sut/elenco_codici_comuni.php) by copying the "CODICE ISTAT" associated with the desired municipality.
                     If the municipality is not located in the declared region, the method will return 0 results.
-- title_search (boolean) : if "True" returns only results which have the "search_item" string declared in the class in the title of the ad.
+- title_search (boolean) : if "True" returns only results which have the "search_item" string declared in the class inside the title of the ad.
                            Defaults to False.
 - shipping (boolean): if "True" returns only ads whose items can be shipped.
                       Defaults to False
