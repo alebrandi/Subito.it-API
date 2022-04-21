@@ -30,9 +30,9 @@ The Subito class takes 2 parameters:
 
 The search() method takes 7 parameters:
 - results (int): maximum number of results you want back. Defaults to 100 results. Declaring less than 100 results will return 0 results
-- sort_by (string): you can sort te results by: -most recent (sort_by = "date")
+- sort_by (string): you can sort the results by: -most recent (sort_by = "date")
                                                 -lowest price (sort_by = "lowest price")
-                                                -highest price (sort_by = "lowest price")
+                                                -highest price (sort_by = "highest price")
                     It defaults to lowest price.
 - ad_type (string): returns either "for sale" (ad_type = "for sale") or "wanted" (ad_type = "wanted") ads. Defualts to "for sale"
 - region (string) : returns ads located in a specific region of Italy. The region name has to be declared using the italian name.
