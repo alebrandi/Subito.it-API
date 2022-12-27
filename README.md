@@ -6,7 +6,7 @@ Unofficial Wrapper API for the website [Subito.it](https://www.subito.it/)
 
 ## Description
 
-Unofficial API which scrapes the products on [Subito.it](https://www.subito.it/) which is kind of the italian version of the website [Craigslist.org](https://www.craigslist.org/about/sites?lang=en&cc=gb#US)
+Unofficial API which scrapes the products on [Subito.it](https://www.subito.it/) could be considered the italian version of the website [Craigslist.org](https://www.craigslist.org/about/sites?lang=en&cc=gb#US)
 
 
 ## Quick Start Guide
